@@ -27,7 +27,7 @@
   "scripts": {
     "build-css": "tailwindcss build -i src/index.scss -o public/styles.scss",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "CI= react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
