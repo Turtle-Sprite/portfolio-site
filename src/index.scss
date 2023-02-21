@@ -34,6 +34,7 @@ p {
     font-size: 1.5em;
 }
 
+// General Styles
 .card {
     @apply bg-slate-200 rounded overflow-hidden shadow-md p-5 text-gray-800 hover:bg-slate-300 border border-gray-300
 }
@@ -44,34 +45,131 @@ p {
     @apply rounded-full py-2 px-3 text-xs font-bold cursor-pointer tracking-wider border-2 border-gray-300
 }
 
-.aboutImg {
-    background-image: url("./images/BlueGreen.png"); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100vw;
-    height: 50vh;
+//AboutPage
+
+.thinkingImg {
+    width: 100%;
+    height: auto;
+}
+.thinkImgWrapper {
+    max-width: 500px
 }
 
 .route-container {
-    padding-bottom: 4.5rem;
     min-height: 100vh;
     width: 100vw;
 }
-
-.image-container {
-
+.hire-btn {
+    width: 10rem;
+    font-size: 1rem;
+    font-weight: bold;
 }
-.intro {
-
+.hire-btn:hover {
+    background-color: #ffd700;
+    color:rgb(8, 11, 55);
 }
+
 .text-zone {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+}
+.why-hire {
+    width: 70%;
+}
+
+
+////Resume ////
+.resume-container {
+    max-width: 800px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+///Projects /////
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flipcard {
+    background-color: transparent;
+    width: 80%;
+    perspective: 40rem;
+}
+
+.flipcardinner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flipcard:hover .flipcardinner {
+    transform: rotateY(180deg);
+}
+
+.flipcardfront,
+.flipcardback {
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flipcardfront {
+    background-color: #bbb;
+    color: black;
+}
+
+.flipcardback {
+    background-color: rgb(66, 67, 71);
+    color: white;
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+////Contact
+.contact-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 
 }
-.stage-cube-cont {
-
+.contact-form {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.contact-btn {
+    margin: 30px auto;
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+.contact-btn:hover {
+    background-color: #ffd700;
+    color:rgb(8, 11, 55);
+}
+.input{
+    margin: 5px;
+    width: 50%;
+    height: 25px;
 }
 
 
+
+// Cube spinner I probably won't use
 .cubespinner {
     animation-name: spincube;
     animation-timing-function: ease-in-out;

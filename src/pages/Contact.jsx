@@ -2,7 +2,6 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../partials/AnimatedLetters'
 import { useEffect, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import './Contact.scss'
 
 function Contact() {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -34,7 +33,7 @@ function Contact() {
     }
     return ( 
         <>
-            <div className='container contact-page'>
+            <div className='contact-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters 
@@ -49,20 +48,20 @@ function Contact() {
                     </p>
                     <div className="contact-form">
                         <form ref={refForm} onSubmit={sendEmail}>
-                            <li className='half'>
+                            <li className='input'>
                                 <input type="text" name="name" placeholder="Name" required/>
                             </li>
-                            <li className='half'>
+                            <li className='input'>
                                 <input type="text" name="email" placeholder="Email" required/>
                             </li>
-                            <li>
+                            <li className='input'> 
                                 <input type="text" name="subject" placeholder="Subject" required/>
                             </li>
-                            <li>
+                            <li className='input'>
                                 <textarea type="text" name="message" placeholder="Message" required/>
                             </li>
-                            <li>
-                                <input type="submit" className="flat-button" value="SEND" required/>
+                            <li className='input'>
+                                <button type="submit" className="btn contact-btn">SEND</button>
                             </li>
                         </form>
                     </div>

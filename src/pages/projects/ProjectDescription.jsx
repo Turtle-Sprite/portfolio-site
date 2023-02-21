@@ -1,4 +1,3 @@
-import "../Project.scss"
 
 function ProjectDescription({ projects }) {
     return (

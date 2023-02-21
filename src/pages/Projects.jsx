@@ -1,5 +1,4 @@
 import AnimatedLetters from '../partials/AnimatedLetters'
-import "./Project.scss"
 import bingeflicks from "../images/WideBingFlicks.png"
 import project3 from "../images/Project-3.png"
 import project1 from "../images/Project-1.png"

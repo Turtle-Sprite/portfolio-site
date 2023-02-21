@@ -14,7 +14,7 @@ function NavBar() {
             <div className='flex justify-between items-end'>
                 <div className='flex justify-between items-center'>
                     <div>
-                        <h1 className='mx-2 xs:text-xs sm:text-2xl md:text-4xl lg:text-4xl'>
+                        <h1 className='mx-7 xs:text-xs sm:text-2xl md:text-4xl lg:text-4xl'>
                             <Link to='/'>Crystal Sheeley</Link>
                         </h1>
                     </div>

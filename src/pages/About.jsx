@@ -4,6 +4,7 @@ import "../partials/AnimatedLetters.scss"
 import AnimatedAbout from './about/AnimatedAbout';
 import AnimatedCube from './about/AnimatedCube';
 import TextZone from './about/TextZone';
+import ThinkingGirl from '../images/PersonThinking.png'
 
 function About() {
     const onButtonClick = () => {
@@ -24,12 +25,20 @@ function About() {
     return (
         <>
             <div className='about-container gap-5 block content-center text-center mx-auto'>
-                <div className='aboutImg'>
+                <div className='aboutImg flex justify-evenly mx-5 flex-wrap'>
+                    <div className='block mt-12'>
                     <AnimatedAbout />
-                    <button className='btn hover:bg-yellow-400' onClick={() => onButtonClick()}>Hire me</button>
+                    <div className="mt-10 mb-7">
+                        <h2 className='m-2'>Looking for your next web developer?</h2>
+                    <button className='btn hire-btn' onClick={() => onButtonClick()}>Hire me</button>
+                    </div>
+                    </div>
+                    <div className='thinkImgWrapper flex justify-center'>
+                    <img className="thinkingImg shadow rounded-full" src={ThinkingGirl} alt="Thinking girl"/>
+                    </div>
                 </div>
 
-                <div className='text-zone m-3'>
+                <div className='text-zone'>
                     <TextZone />
                 </div>
 
