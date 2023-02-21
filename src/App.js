@@ -9,7 +9,7 @@ import Footer from './partials/Footer'
 function App() {
   return (
     <>
-    <div className='container'>
+    <div>
       <NavBar />
       <div className='route-container px-10'>
       <Routes>
@@ -20,7 +20,7 @@ function App() {
       </Routes>
       </div>
     </div>
-    {/* <Footer /> */}
+    <Footer />
     </>
   );
 }

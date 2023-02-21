@@ -10,10 +10,7 @@ function About() {
     return (
         <>
             <div className='about-container flex gap-5 flex-wrap'>
-                <div className="image-container m-3">
-                    <img className='photo' src={photo} alt="Crystal Sheeley"/>
-                </div>
-                <div className='intro m-3 '>
+                <div className='aboutImg m-3 '>
                     <AnimatedAbout />
                 </div>
 

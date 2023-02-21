@@ -33,7 +33,7 @@ function NavBar() {
 
                 {/* if hamburger is open, display this */}
                 {navOpen ?
-                <div className='text-center absolute top-0 hamburger bg-red-500 mx-auto z-10'>
+                <div className='text-center absolute top-0 hamburger mx-auto z-10'>
                 <ul className='nav-bar-top block  items-end '>
                     <AiOutlineClose className='icon absolute top-2 right-11' onClick={() => {
                         console.log("nav false")
@@ -61,7 +61,7 @@ function NavBar() {
                 </ul>
                 </div>
             :
-            <ul className='nav-bar-top flex sm:justify-center md:justify-end items-end hidden md:flex'>
+            <ul className='nav-bar-top flex sm:justify-center md:justify-end lg:justify-evenly items-end hidden md:flex'>
             <li className='nav-item hover:animate-bounce mx-2'>
                 <Link style={{ textDecoration: "none" }} to='/'>
                     About
