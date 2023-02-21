@@ -23,7 +23,6 @@ function NavBar() {
                     {/* Medium screens, hamburger */}
                 <div className={`px-4 cursor-pointer md:hidden`}>
                     <GiHamburgerMenu style={{ width: "35px", height: "35px" }} onClick={() => {
-                        console.log("nav true")
                         setNavOpen((prev) => {
                         return !prev
                         }
@@ -35,7 +34,7 @@ function NavBar() {
                 {navOpen ?
                 <div className='text-center absolute top-0 hamburger mx-auto z-10'>
                 <ul className='nav-bar-top block  items-end '>
-                    <AiOutlineClose className='icon absolute top-2 right-11' onClick={() => {
+                    <AiOutlineClose className='icon absolute top-2 right-7' onClick={() => {
                         console.log("nav false")
                         setNavOpen(false)}}/>
                     <li className='nav-item hover:animate-bounce '>
