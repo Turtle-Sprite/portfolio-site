@@ -30,7 +30,8 @@ function About() {
                     <AnimatedAbout />
                     <div className="mt-10 mb-7">
                         <h2 className='m-2'>Looking for your next web developer?</h2>
-                    <button className='btn hire-btn' onClick={() => onButtonClick()}>Hire me</button>
+                    <a href='/resume'><button className='btn hire-btn'>See my experience</button></a>
+                    <button className='btn hire-btn' onClick={() => onButtonClick()}>Download Resume</button>
                     </div>
                     </div>
                     <div className='thinkImgWrapper flex justify-center'>

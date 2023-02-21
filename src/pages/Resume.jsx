@@ -12,6 +12,8 @@ function Resume() {
         <>
             <div className="resume-container">
                 <div className="text-zone">
+                    
+
                     <div className="generalassembly">
                         <GeneralAssembly />
                     </div>

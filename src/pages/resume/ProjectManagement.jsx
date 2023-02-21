@@ -38,7 +38,8 @@ function ProjectManagement() {
                 <>
                 <h4>November 2013 - April 2015</h4>
                 <h4>Iva Kaufman Associates, New York, NY</h4>
-                <p>oordinated the projects of a boutique agency dedicated to finding funding for environmental projects, social entrepreneurs, and the arts. </p>
+                <p>Coordinated the projects of a boutique agency dedicated to finding funding for environmental projects, social entrepreneurs, and the arts. </p>
+                
                 </>
                 :
                 null}
