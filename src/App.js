@@ -11,7 +11,7 @@ function App() {
     <>
     <div>
       <NavBar />
-      <div className='route-container px-10'>
+      <div className='route-container'>
       <Routes>
         <Route path='/' element={<About />}/>
         <Route path='/projects' element={<Projects />}/>

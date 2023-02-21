@@ -20,19 +20,19 @@ function About() {
             })
         })
     }
-    
+
     return (
         <>
-            <div className='about-container flex gap-5 flex-wrap'>
-                <div className='aboutImg m-3 '>
+            <div className='about-container gap-5 block content-center text-center mx-auto'>
+                <div className='aboutImg'>
                     <AnimatedAbout />
+                    <button className='btn hover:bg-yellow-400' onClick={() => onButtonClick()}>Hire me</button>
                 </div>
-               <button className='btn hover:bg-yellow-400' onClick={() => onButtonClick()}>Hire me</button>
 
                 <div className='text-zone m-3'>
                     <TextZone />
-                </div>              
-                
+                </div>
+
             </div>
             <Loader type="pacman" />
         </>

@@ -3,6 +3,7 @@ import Loader from 'react-loaders';
 import GeneralAssembly from './resume/GeneralAssembly';
 import ProjectManagement from './resume/ProjectManagement';
 import Teaching from './resume/Teaching';
+import "./Resume.scss"
 
 function Resume() {
 
