@@ -1,0 +1,53 @@
+.hamburger {
+    width: 100%;
+}
+
+.icon {
+    width: 35px;
+    height: 35px;
+}
+.nav-bar-top {
+    width: 100%;
+    top: 0;
+
+
+    .nav-item {
+        font-size: 22px;
+        color: rgb(45, 58, 76);
+        display: block;
+        font-weight: 900;
+        line-height: 51px;
+        // position: relative;
+        // margin-left: 1rem;
+
+        i {
+            transition: all 0.3s ease-out;
+        }
+
+        &:hover {
+            color: #ffd700;
+
+            svg {
+                opacity: 0;
+            }
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: '';
+            font-size: 9px;
+            letter-spacing: 2px;
+            position: absolute;
+            bottom: 0;
+            display: block;
+            width: 100%;
+            text-align: center;
+            opacity: 0;
+            transition: all 0.3 ease-out;
+        }
+    }
+
+}
