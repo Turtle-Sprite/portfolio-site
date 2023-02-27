@@ -3,7 +3,7 @@ function TextZone() {
     return ( 
         <div className="why-hire text-center">
         <h2 className="p-2"> Why hire me? </h2>
-        <h3 className="p-2"> I'm a creative and dedicated individual with years of experience in marketing, project management, and now web development. With these skills under my belt, and my newly minted skills from a Software Engineering bootcamp, I can help you build and maintain cloud databases, implement web-designs, and build towards your goals.</h3>
+        <h3 className="p-2"> I'm a creative and dedicated individual with 7+ years of experience in marketing and project management. With these skills under my belt, and my newly minted skills from a Software Engineering bootcamp, I can help you build and maintain cloud databases, implement web-designs, and build towards your goals.</h3>
 
         <h2 className="pt-2">What should you know about me?</h2>
 

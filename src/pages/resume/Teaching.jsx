@@ -8,12 +8,12 @@ function Teaching() {
 
     return (
         <>
-            <div className="mt-4 mx-2 card2" >
+            <div className="mt-4 mx-2 card2 " >
                 <h1>Teaching Experience</h1>
                 <p>I spent over 4 years teaching and traveling around the world. The majority of my experience is captured below.</p>
             </div>
 
-            <div className="card mx-2" onClick={() => setReadHill((prev) => !prev)}>
+            <div className="card mx-2 text-left resume-list" onClick={() => setReadHill((prev) => !prev)}>
                 <div className="flex">
                     <AiOutlineDown className="w-7 h-7 mt-1 mr-2" />
                     <h3>Homeroom Teacher</h3>
@@ -30,7 +30,7 @@ function Teaching() {
                     </> : null}
             </div>
 
-            <div className="mx-2 card" onClick={() => setReadVUS((prev) => !prev)}>
+            <div className="mx-2 card text-left resume-list" onClick={() => setReadVUS((prev) => !prev)}>
                 <div className="flex">
                     <AiOutlineDown className="w-7 h-7 mt-1 mr-2"  />
                     <h3>EFL Teacher</h3>
@@ -43,7 +43,7 @@ function Teaching() {
                         <li>Conducted placement tests for incoming students and implemented testing for class progress and evaluation. </li>
                     </> : null}
             </div>
-            <div className="mx-2 card" onClick={() => setReadView((prev) => !prev)}>
+            <div className="mx-2 card text-left resume-list" onClick={() => setReadView((prev) => !prev)}>
                 <div className="flex">
                     <AiOutlineDown className="w-7 h-7 mt-1 mr-2"  />
                     <h3>EFL Teacher</h3>

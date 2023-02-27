@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders';
-import GeneralAssembly from './resume/GeneralAssembly';
-import ProjectManagement from './resume/ProjectManagement';
-import Teaching from './resume/Teaching';
-import "./Resume.scss"
+import GeneralAssembly from './GeneralAssembly';
+import ProjectManagement from './ProjectManagement';
+import Teaching from './Teaching';
+
 
 function Resume() {
 
@@ -13,10 +13,11 @@ function Resume() {
             <div className="resume-container">
                 <div className="text-zone">
                     
-
                     <div className="generalassembly">
+                        
                         <GeneralAssembly />
                     </div>
+
                     <div className="projectmanagement">
                         <ProjectManagement />
                     </div>

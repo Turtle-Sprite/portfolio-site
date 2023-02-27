@@ -32,17 +32,22 @@ h4 {
 }
 p {
     font-size: 1.5em;
+    font-weight: 600;
 }
 
 // General Styles
 .card {
-    @apply bg-slate-200 rounded overflow-hidden shadow-md p-5 text-gray-800 hover:bg-slate-300 border border-gray-300
+    @apply bg-slate-200 rounded overflow-hidden shadow-lg p-5 text-gray-800 hover:bg-slate-300 border border-gray-300
 }
 .card2 {
     @apply bg-slate-200 rounded overflow-hidden shadow-md p-5 text-gray-800 
 }
 .btn {
     @apply rounded-full py-2 px-3 text-xs font-bold cursor-pointer tracking-wider border-2 border-gray-300
+}
+.black-card {
+
+    @apply bg-gray-800 rounded overflow-hidden shadow-lg p-5 text-slate-200 hover:bg-gray-700 border border-gray-300
 }
 
 //AboutPage
@@ -58,6 +63,7 @@ p {
 .route-container {
     min-height: 100vh;
     width: 100vw;
+    margin: 50px; 
 }
 .hire-btn {
     width: 10rem;
@@ -86,6 +92,18 @@ p {
     margin: 0 auto;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.img-resume {
+    max-width: 400px;
+    width: 100%;
+    max-height: 300px;
+}
+.resume-recent {
+    display: flex;
+}
+.resume-list li {
+    font-size: 2em;
 }
 
 
@@ -147,10 +165,15 @@ p {
     margin: 0 auto;
 
 }
+.contact-info {
+    max-height: 300px;
+}
 .contact-form {
     list-style: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .contact-btn {
     margin: 30px auto;
@@ -163,10 +186,13 @@ p {
 }
 .input{
     margin: 5px;
-    width: 50%;
+    width: 300px;
+    font-size: 2rem;
+}
+.icon {
+    width: 25px;
     height: 25px;
 }
-
 
 
 // Cube spinner I probably won't use

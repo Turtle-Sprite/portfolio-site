@@ -29,9 +29,9 @@ function About() {
                     <div className='block mt-12'>
                     <AnimatedAbout />
                     <div className="mt-10 mb-7">
-                        <h2 className='m-2'>Looking for your next web developer?</h2>
-                    <a href='/resume'><button className='btn hire-btn'>See my experience</button></a>
-                    <button className='btn hire-btn' onClick={() => onButtonClick()}>Download Resume</button>
+                        <h2 className='m-4'>Looking for your next web developer?</h2>
+                    <a className="mx-3" href='/resume'><button className='btn hire-btn'>See my experience</button></a>
+                    <button className='btn hire-btn mx-3' onClick={() => onButtonClick()}>Download Resume</button>
                     </div>
                     </div>
                     <div className='thinkImgWrapper flex justify-center'>

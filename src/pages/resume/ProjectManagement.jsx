@@ -15,7 +15,7 @@ function ProjectManagement() {
             </div>
             <div className="mx-2 card" onClick={() => setReadGenOn((prev) => !prev)}>
             <div className="flex">
-                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2"/>
+                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2 resume-list"/>
                 <h3>Senior Coordinator of Campaigns</h3>
             </div>
                 { readGenOn ?
@@ -31,7 +31,7 @@ function ProjectManagement() {
             </div>
             <div className="mx-2 card" onClick={() => setReadIva((prev) => !prev)}>
                 <div className="flex">
-                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2"/>
+                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2 resume-list"/>
                 <h3>Project Coordinator</h3>
                 </div>
                 { readIva ?
@@ -46,7 +46,7 @@ function ProjectManagement() {
             </div>
             <div className="mx-2 card" onClick={() => setReadBYG((prev) => !prev)}>
                 <div className="flex " >
-                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2 " />
+                    <AiOutlineDown className="w-7 h-7 mt-1 mr-2 resume-list" />
                 <h3>Content Manager</h3>
                 </div>
                 { readBYG ?
