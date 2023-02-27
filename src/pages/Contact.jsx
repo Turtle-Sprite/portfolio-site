@@ -42,10 +42,7 @@ function Contact() {
                 </p>
                 <div className="flex ">
                     <div className="contact-info black-card m-4">
-                        <a className="flex items-center" href='https://www.linkedin.com/in/crystal-sheeley-developer/'>< AiFillLinkedin className='icon' />
-                            <h3 className='p-2 mt-2'>Linkedin</h3></a>
-                        <a className="flex items-center" href='https://github.com/Turtle-Sprite'><AiFillGithub className='icon' />
-                            <h3 className='p-2 mt-2'>Github</h3></a>
+
                         <div className="flex items-center">
                             <AiFillPhone className='icon' />
                             <h3 className='p-2 mt-2'>213-649-8796</h3>
@@ -54,6 +51,12 @@ function Contact() {
                             <AiOutlineMail className='icon' />
                             <h3 className='p-2 mt-2'>crystal.sheeley13@gmail.com</h3>
                         </div>
+                        
+                        <a className="flex items-center" href='https://www.linkedin.com/in/crystal-sheeley-developer/'>< AiFillLinkedin className='icon' />
+                            <h3 className='p-2 mt-2'>Linkedin</h3></a>
+                        <a className="flex items-center" href='https://github.com/Turtle-Sprite'><AiFillGithub className='icon' />
+                            <h3 className='p-2 mt-2'>Github</h3></a>
+
                     </div>
                     <div className="contact-form">
                         <h4>Old school contact form? Don't mind if I do!</h4>
