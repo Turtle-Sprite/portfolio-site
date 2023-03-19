@@ -28,7 +28,7 @@ function GeneralAssembly() {
             <div className="m-2 card2 text-left resume-list">
                 <p>At General Assembly, I finished a four month Software Engineering Immersive bootcamp learning full-stack development.</p>
                 <li>Project 1: Designed and created a crawler game using vanilla Javascript, Canvas, HTML and CSS demonstrating basic principles in action.</li>
-                <li>liroject 2: Designed a liersonal project management tool using Express, Node.js, SQL, and Bootstrap to integrate databases and front-end frameworks.</li>
+                <li>Project 2: Designed a liersonal project management tool using Express, Node.js, SQL, and Bootstrap to integrate databases and front-end frameworks.</li>
                 <li>Project 3: Collaborating with a team, we created a food delivery app using React, Express, and MongoDB to practice user authentication and Git workflows.</li>
                 <li>Project 4: Designed and programmed a full-stack MERN web application complete with user authentication. Features include payments via Stripe, and browsing movies for rental. </li>
                 <button onClick={() => {

@@ -84,7 +84,6 @@ function NavBar() {
         </ul>
             
             }
-                {/* if hamburger is not open, display this */}
          </div>
         </nav>
         </>
