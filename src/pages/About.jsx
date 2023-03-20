@@ -5,6 +5,7 @@ import AnimatedAbout from './about/AnimatedAbout';
 import AnimatedCube from './about/AnimatedCube';
 import TextZone from './about/TextZone';
 import ThinkingGirl from '../images/PersonThinking.png'
+import { Link } from 'react-router-dom';
 
 function About() {
     const onButtonClick = () => {
@@ -30,7 +31,9 @@ function About() {
                     <AnimatedAbout />
                     <div className="mt-10 mb-7">
                         <h2 className='m-4'>Looking for your next web developer?</h2>
-                    <a className="mx-3" href='/resume'><button className='btn hire-btn'>See my experience</button></a>
+                    <Link className="mx-3" to='/resume'>
+                        <button className='btn hire-btn'>See my experience</button>
+                    </Link>
                     <button className='btn hire-btn mx-3' onClick={() => onButtonClick()}>Download Resume</button>
                     </div>
                     </div>

@@ -19,15 +19,15 @@ function Teaching() {
                     <h3>Homeroom Teacher</h3>
                 </div>
                 {readHill ?
-                    <>
+                    <div className="text-left">
                         <h4>June 2021 - July 2022</h4>
                         <h4>Hillside Collegiate Jr., Busan, South Korea</h4>
-                        <p>I taught homeroom in an International School setting with children from ages 5-7. </p>
+                        <h4 className="bold">Key Responsibilities: I taught homeroom in an International School setting with children from ages 5-7. </h4>
                         <li>Designed and executed lessons for six and seven year old learners with a hands-on approach to both social and educational materials.</li>
                         <li>Created a variety of teaching materials to accommodate different learning styles.</li>
                         <li>Provided extensive individual feedback for student evaluation.</li>
                         <li>Prepared extra-curricular activities and monitored field trips for students.</li>
-                    </> : null}
+                    </div> : null}
             </div>
 
             <div className="mx-2 card text-left resume-list" onClick={() => setReadVUS((prev) => !prev)}>
